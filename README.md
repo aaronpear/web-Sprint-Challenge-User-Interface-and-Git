@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    HTML consists of tags and closing tags (<tag></tag>) that let computers know what to put on and display onto a web page,
+    and sometimes these tags are self-explanatory and easy to understand at a glance (eg. <header> or <section>), and sometimes
+    what these tags do or contain may not be so obvious (eg. <div> or <span>). The descriptive tags are what are considered 
+    semantic HTML while the rest are non-semantic, and it is best to use semantic HTML as much as is appropriate in order to
+    keep our code as easy to read as possible.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block elements always occupy an entire row for themselves while inline elements allow space for separate elements.
+    As that is the case, by default, block elements take up the maximum width as their parent will allow while 
+    inline elements would only be as wide as is needed for their contents to fit into their parent element.
 
 3. What are the 4 areas of the box model?
 
+    From the inside out: Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git enables teams of developers to work on and edit code individually without immediately affecting the source code and allows
+    each change to main to be reviewed before it is committed. This in addition to its ability to log each and every version
+    of any piece of code throughout the process allows for a significantly smoother and cleaner workflow than what would otherwise
+    be possible.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
