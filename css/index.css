@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /*border: 1px solid grey;*/
+    border: 1px solid red;*/
 }
 
 nav {
@@ -102,7 +102,7 @@ p {
 }
 
 #header-img {
-    margin: 2% 29.2%;
+    margin: 2% 29.2% 1%;
 }
 
 .top-content .text-container {
@@ -111,15 +111,29 @@ p {
     padding-bottom: 20px;  
 }
 
+#about-section {
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+#about-section p, #about-section h2 {
+    margin: 0 2% 2%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
+#about-middle-content {
+    border-bottom: 0px;
+}
+
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0;
     margin-bottom: 0;
 }
+
 
 .middle-content .boxes {
     display: flex;
@@ -136,6 +150,29 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .about-box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    border-bottom: 1px dashed black;
+    margin: 0% 2% 6%;
+}
+
+.about-box img, .about-box h2, .about-box p, .about-box a {
+    margin-bottom: 4.5%;
+}
+
+.learn-more-link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 35%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 15%;
 }
 
 .middle-content .boxes .box#box1 {
@@ -178,6 +215,15 @@ p {
     background: dodgerblue;
 }
 
+.closing-section {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.closing-section h2 {
+    margin-bottom: 1%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -201,7 +247,6 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
